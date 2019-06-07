@@ -29,3 +29,15 @@ dblImg.addEventListener('dblclick', function(event) {
     event.preventDefault();
     alert('SIGN UP NOWWWWW!!!!!');
 });
+
+//Event Listeners--4--drag
+const funDrag = document.querySelector('.content-destination h2');
+funDrag.addEventListener('drag', function(event) {
+    alert('DRAGGG!!');
+});
+
+//Event Listeners--5--mouseenter
+const footer = document.querySelector('.footer p');
+footer.addEventListener('mouseenter', function(event) {
+    footer.style.color = 'green';
+})
