@@ -54,3 +54,16 @@ photoDown.addEventListener('mousedown', function (event) {
     photoDown.style.width = '300px';
 });
 
+//Event Listeners--8--mousemove
+const destinationCont = document.querySelector('.content-pick');
+destinationCont.addEventListener('mousemove', function(event) {
+    destinationCont.style.color = 'orange';
+    destinationCont.style.background = 'grey';
+});
+
+//Event Listeners--9--mouseup
+const nav = document.querySelector('.nav');
+nav.addEventListener('mouseup', function(event) {
+    nav.style.background = 'red';
+    nav.style.height = '6rem';
+});
