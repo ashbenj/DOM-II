@@ -67,3 +67,9 @@ nav.addEventListener('mouseup', function(event) {
     nav.style.background = 'red';
     nav.style.height = '6rem';
 });
+
+//Event Listeners--10--wheel
+const header = document.querySelector('header');
+header.addEventListener('wheel', function(event) {
+    header.style.background = 'orange';
+});
