@@ -15,10 +15,17 @@ buttons[2].addEventListener('mouseover', function(event) {
 //Event Listeners--2--mouseleave
 buttons[0].addEventListener('mouseleave', function(event) {
     event.target.style.backgroundColor = 'blue';
-})
+});
 buttons[1].addEventListener('mouseleave', function(event) {
     event.target.style.backgroundColor = 'orange';
-})
+});
 buttons[2].addEventListener('mouseleave', function(event) {
     event.target.style.backgroundColor = 'red';
-})
+});
+
+//Event Listeners--3--dblclick
+const dblImg = document.querySelector('.img-content img');
+dblImg.addEventListener('dblclick', function(event) {
+    event.preventDefault();
+    alert('SIGN UP NOWWWWW!!!!!');
+});
