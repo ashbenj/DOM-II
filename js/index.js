@@ -40,4 +40,17 @@ funDrag.addEventListener('drag', function(event) {
 const footer = document.querySelector('.footer p');
 footer.addEventListener('mouseenter', function(event) {
     footer.style.color = 'green';
-})
+});
+
+//Event Listeners--6--mouseout
+const out = document.querySelector('.footer p');
+out.addEventListener('mouseleave', function(event) {
+    event.target.style.color = 'purple';
+});
+
+//Event Listeners--7--mousedown
+const photoDown = document.querySelector('.img-content img');
+photoDown.addEventListener('mousedown', function (event) {
+    photoDown.style.width = '300px';
+});
+
