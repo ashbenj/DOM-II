@@ -46,6 +46,7 @@ footer.addEventListener('mouseenter', function(event) {
 const out = document.querySelector('.footer p');
 out.addEventListener('mouseleave', function(event) {
     event.target.style.color = 'purple';
+    event.stopPropagation();
 });
 
 //Event Listeners--7--mousedown
@@ -72,4 +73,4 @@ nav.addEventListener('mouseup', function(event) {
 const header = document.querySelector('header');
 header.addEventListener('wheel', function(event) {
     header.style.background = 'orange';
-});
+}); 
